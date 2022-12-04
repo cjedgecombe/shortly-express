@@ -1,7 +1,5 @@
 const parseCookies = (req, res, next) => {
 
-  // USE PROMISES
-
   // create cookie string
   var cookieString = req.headers.cookie;
 
